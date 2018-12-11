@@ -22,7 +22,7 @@
         <TextView
             android:id="@+id/quote"
             android:layout_width="match_parent"
-            android:layout_height="84dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:gravity="bottom"
             android:textSize="24sp"
@@ -31,7 +31,7 @@
         <TextView
             android:id="@+id/author"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="bottom"
             android:textSize="24sp" />
@@ -62,7 +62,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="83dp"
+                android:layout_height="60dp"
                 android:orientation="horizontal">
 
                 <Button
@@ -84,7 +84,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="72dp"
+                android:layout_height="60dp"
                 android:orientation="horizontal">
 
                 <Button
